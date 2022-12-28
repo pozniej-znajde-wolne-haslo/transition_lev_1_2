@@ -1,0 +1,28 @@
+.flex-container {
+    background-color:rgb(185, 180, 180);
+    width: 800px;
+    height: 250px;
+}
+
+
+.red {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(192, 24, 24);
+    transition: all 3s ease-in-out;
+   /*  transition-delay: 1s; */
+}
+
+
+.green {
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    background-color:green;
+    transition: all 2s ease-in-out 1s;
+}
+
+.flex-container:hover .red,
+.flex-container:hover .green {
+    transform: translateX(700px);
+}
